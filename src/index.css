@@ -9,6 +9,8 @@
 }
 
 body {
+  padding: 0;
+  margin: 0;
   width: 100%;
   height: 100vh;
   overflow: hidden;
@@ -94,4 +96,14 @@ body {
 
 .highlight {
   background-color: lightgreen;
+}
+
+@media screen and (max-width: 400px) {
+  .game {
+    flex-direction: column;
+    height: auto;
+  }
+  .game-info {
+    margin-top: 20px;
+  }
 }
